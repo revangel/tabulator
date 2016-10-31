@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rev/Dropbox/Dev/cmpt300/a2/include/table/include/table.h
+iostream
+-
+vector
+-
+string
+-
+../src/table.cpp
+/home/rev/Dropbox/Dev/cmpt300/a2/include/table/src/table.cpp
+
+/home/rev/Dropbox/Dev/cmpt300/a2/include/table/src/table.cpp
+../include/table.h
+/home/rev/Dropbox/Dev/cmpt300/a2/include/table/include/table.h
+iomanip
+-
+assert.h
+-
+
+/home/rev/Dropbox/Dev/cmpt300/a2/include/table/src/tableTest.cpp
+iostream
+-
+string
+-
+assert.h
+-
+../include/table.h
+/home/rev/Dropbox/Dev/cmpt300/a2/include/table/include/table.h
+
